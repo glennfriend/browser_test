@@ -5,7 +5,7 @@ java
 
 nightwatch
     npm install nightwatch
-    cp config/settings.json nightwatch/node_modules/nightwatch/bin/
+    cp config/settings.json node_modules/nightwatch/bin/
 
 
 selenium
@@ -19,4 +19,7 @@ selenium
         cd selenium
         java -jar selenium-server-standalone-{VERSION}.jar &
 
+execute script
+
+     ./nightwatch.sh -t src/google/demo.js --verbose
 
