@@ -1,0 +1,22 @@
+
+java
+    yum install java-1.7.0-openjdk.x86_64
+
+
+nightwatch
+    npm install nightwatch
+    cp config/settings.json nightwatch/node_modules/nightwatch/bin/
+
+
+selenium
+    selenium
+        https://code.google.com/p/selenium/wiki/RemoteWebDriverServer
+
+    download in
+        http://selenium-release.storage.googleapis.com/index.html?path=2.41/
+
+    run
+        cd selenium
+        java -jar selenium-server-standalone-{VERSION}.jar &
+
+
