@@ -1,5 +1,5 @@
 
-¨ä¥¦¥²­n±ø¥ó
+å…¶å®ƒå¿…è¦æ¢ä»¶
     install node.js
     install firefox (desktop)
     install java
