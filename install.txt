@@ -1,6 +1,9 @@
 
-java
-    yum install java-1.7.0-openjdk.x86_64
+其它必要條件
+    install node.js
+    install firefox (desktop)
+    install java
+        yum install java-1.7.0-openjdk.x86_64
 
 
 nightwatch
@@ -19,7 +22,7 @@ selenium
         cd selenium
         java -jar selenium-server-standalone-{VERSION}.jar &
 
-execute script
 
+demo
      ./nightwatch.sh -t src/google/demo.js --verbose
 
